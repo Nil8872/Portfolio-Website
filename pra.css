@@ -1,0 +1,13 @@
+.container{
+ margin:auto;   
+}
+.btn{
+    color: blue;
+    text-decoration: none;
+    background-color: red;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin: 2rem;
+    margin:auto;
+
+}
