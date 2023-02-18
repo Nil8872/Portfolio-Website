@@ -551,3 +551,32 @@ box-shadow: 0 0 20px rgba(45, 46, 46, 0.15);
     margin-bottom: 30px;
     color: var(--text-black-700);
 }
+
+ /* ######### Potrfolio Section Start ########## */
+
+.portfolio .project-title h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--text-black-700);
+    margin-bottom: 30px;
+}
+.portfolio .row{
+    justify-content: space-between;
+
+}
+.portfolio .portfolio-items{
+    flex: 0 0 48%;
+    max-width: 48%; 
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+.portfolio .portfolio-items .portfolio-img img{
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+    border: 6px solid var(--bg-black-100);
+}
+.portfolio .portfolio-items :hover .portfolio-img img {
+    box-shadow: 0 0 20px rgba(45, 46, 46, 0.45);
+    cursor: pointer;
+}
